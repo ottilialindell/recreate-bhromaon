@@ -1,0 +1,64 @@
+footer {
+    width: 100%;
+    background: #232323;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.black-space {
+    height: 60px;
+}
+
+.footer-logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.footer-slogan {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+
+}
+
+
+.fab.fa-linkedin-in {
+    color: #5474FD;
+    margin-right: 20px;
+}
+
+.fab.fa-facebook-f {
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.fab.fa-twitter {
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.fab.fa-youtube{
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+
+.fab.fa-pinterest{
+    color: #FFFFFF;
+}

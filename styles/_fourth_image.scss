@@ -1,0 +1,10 @@
+.fourth-image {
+    background: url("../images/image-4.png") no-repeat center center fixed;    
+    width: 100%; 
+    height: 85em;  
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
