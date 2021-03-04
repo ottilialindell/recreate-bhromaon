@@ -12,6 +12,14 @@ form.search input[type=text] {
     height: 63px;
     background: #f1f1f1;
 }
+
+@media screen and (max-width: 400px) {
+    form.search input[type=text]  {
+        font-size: 10px;
+        width: auto;
+        height: auto;
+    }
+}
   
 form.search button {
     float: left;
@@ -32,6 +40,13 @@ form.search button {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 400px) {
+    form.search button  {
+        width: auto;
+        height: auto;
+    }
+}
+
 .text {
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
@@ -48,6 +63,7 @@ form.search button {
   
 form.search button:hover {
     background: #19224b;
+    transform:scale(1.2);
 }
   
 

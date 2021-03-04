@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .top {
@@ -30,6 +30,12 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 400px) {
+    .logo {
+        font-size: 36px;
+    }
+}
+
 .slogan {
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
@@ -41,7 +47,13 @@
     text-align: center;
     letter-spacing: 6.82px;
     color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 400px) {
+    .slogan {
+        font-size: 14px;
+    }
 }
 
 .bottom {

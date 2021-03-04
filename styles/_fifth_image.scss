@@ -14,8 +14,28 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     transform:translateY(91px);
 }
+
+@media screen and (max-width: 400px) {
+    .row {
+        transform:translateY(0px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .fifth {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image-view {
+        width: 300px;
+    }
+}
+
 
 .fifth {
     background: #333333;

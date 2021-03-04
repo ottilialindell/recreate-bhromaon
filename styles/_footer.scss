@@ -41,24 +41,39 @@ footer {
 .fab.fa-linkedin-in {
     color: #5474FD;
     margin-right: 20px;
+    &:hover {
+        color: #FFFFFF;
+    }
 }
 
 .fab.fa-facebook-f {
     color: #FFFFFF;
     margin-right: 20px;
+    &:hover {
+        color: #5474FD;
+    }
 }
 
 .fab.fa-twitter {
     color: #FFFFFF;
     margin-right: 20px;
+    &:hover {
+        color: #5474FD;
+    }
 }
 
 .fab.fa-youtube{
     color: #FFFFFF;
     margin-right: 20px;
+    &:hover {
+        color: #5474FD;
+    }
 }
 
 
 .fab.fa-pinterest{
     color: #FFFFFF;
+    &:hover {
+        color: #5474FD;
+    }
 }
