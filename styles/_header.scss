@@ -3,12 +3,13 @@ header {
     background: #5474FD;
     height: 83px;
     display: flex;
+    justify-content: space-around;
 }
 
 .header-left {
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 
 .header-logo {
@@ -20,13 +21,11 @@ header {
     letter-spacing: 2.4px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 50px;
+    margin-right: auto;
 }
 
 .header-right {
     display: flex;
-    justify-self: flex-end;
-    align-items: center;
 }
 
 .nav {
@@ -45,7 +44,7 @@ header {
     &__li {
         float: right;
         margin-right: 10px;
-        font-family: Aleo;
+        font-family: 'Aleo', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
