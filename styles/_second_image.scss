@@ -15,11 +15,15 @@
     }
 }
 
+/* Här får jag inte till innehållet att aligna till vänster, men att parent-elementet 
+fortfarande är centrerat. Tar jag bort align-items nedan hamnar det centrerat, men då även 
+allt innehåll och texter */
+
 .second-image.left {
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px;
+    align-items: flex-start;
+    padding-left: 10px;
 }
 
 h3 {
@@ -36,6 +40,7 @@ h3 {
         font-size: 22px;
     }
 }
+
 
 .main-text {
     font-family: 'Josefin Sans', sans-serif;
